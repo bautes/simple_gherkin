@@ -1,6 +1,6 @@
 {
   "name": "simple_gherkin",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Parses a gherkin notation and provide a simple class to implement in your tests",
   "main": "index.js",
   "scripts": {
