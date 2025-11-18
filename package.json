@@ -1,0 +1,35 @@
+{
+  "name": "simple_gherkin",
+  "version": "1.0.0",
+  "description": "Parses a gherkin notation and provide a simple class to implement in your tests",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test",
+    "build": "tsup src/index.ts --format cjs,esm --dts",
+    "release": "npm run build && changeset publish"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/ortizjuanb/simple_gherkin.git"
+  },
+  "keywords": [
+    "gherkin",
+    "testing",
+    "e2e",
+    "integration"
+  ],
+  "author": "Juan Bautista ORTIZ",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://gitlab.com/ortizjuanb/simple_gherkin/issues"
+  },
+  "homepage": "https://gitlab.com/ortizjuanb/simple_gherkin#readme",
+  "dependencies": {
+    "tsup": "^8.5.1",
+    "typescript": "^5.9.3"
+  },
+  "devDependencies": {
+    "@changesets/cli": "^2.29.7"
+  }
+}
