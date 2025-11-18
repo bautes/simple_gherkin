@@ -32,7 +32,7 @@ Feature: Your feature to test
 
 File: _tests.ts_
 ```
-import { Given, When, Then, GherkinSteps } from "simple_gherkin/src"
+import { Given, When, Then, GherkinSteps } from "simple_gherkin/dist"
 
 class Steps extends GherkinSteps {
     @Given('your Given case')
@@ -55,7 +55,7 @@ class Steps extends GherkinSteps {
 ### Run tests
 
 ```
-import withGherkin from 'simple_gherkin/src';
+import withGherkin from 'simple_gherkin/dist';
 import Steps from 'your_steps_library';
 const textPlainScenarios = require("testcase.feature")
 

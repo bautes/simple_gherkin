@@ -1,6 +1,6 @@
 {
   "name": "simple_gherkin",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Parses a gherkin notation and provide a simple class to implement in your tests",
   "main": "index.js",
   "scripts": {
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@gitlab.com/ortizjuanb/simple_gherkin.git"
+    "url": "git+ssh://git@github.com:bautes/simple_gherkin.git"
   },
   "keywords": [
     "gherkin",
@@ -21,9 +21,9 @@
   "author": "Juan Bautista ORTIZ",
   "license": "MIT",
   "bugs": {
-    "url": "https://gitlab.com/ortizjuanb/simple_gherkin/issues"
+    "url": "https://github.com/bautes/simple_gherkin/issues"
   },
-  "homepage": "https://gitlab.com/ortizjuanb/simple_gherkin#readme",
+  "homepage": "https://github.com/bautes/simple_gherkin#readme",
   "dependencies": {
     "@babel/preset-env": "^7.28.5",
     "@babel/preset-typescript": "^7.28.5",
