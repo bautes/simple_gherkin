@@ -2,7 +2,9 @@
   "name": "simple_gherkin",
   "version": "1.0.2",
   "description": "Parses a gherkin notation and provide a simple class to implement in your tests",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": ["/dist"],
   "scripts": {
     "test": "jest",
     "build": "tsup src/index.ts --format cjs,esm --dts",

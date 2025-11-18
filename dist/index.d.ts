@@ -7,7 +7,7 @@ type ParseGerkin = {
  * Parses a given text in Gherking notation
  * @param gherkinText
  * @returns Array<ParseGerkin>
-i */
+ */
 declare function parseGherkin(gherkinText: string): ParseGerkin[];
 /**
  * Extend from here your Given, When, Then steps.
